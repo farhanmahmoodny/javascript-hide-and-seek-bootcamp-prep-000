@@ -19,4 +19,5 @@ function increaseRankBy(n){
     parseInt(list[i])
     list[i] + n
   }
+  return list
 }
