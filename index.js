@@ -18,5 +18,5 @@ function increaseRankBy(n){
   for(var i = 0; i <list.length; i++){
     list[i].innerHTML = (i + n).toString()
   }
-  return list
+  console.log(list)
 }
