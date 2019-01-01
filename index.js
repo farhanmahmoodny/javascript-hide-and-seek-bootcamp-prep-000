@@ -18,5 +18,4 @@ function increaseRankBy(n){
   for(var i = 0; i <list.length; i++){
     list[i].innerHTML = parseInt(i + n)
   }
-  return list
 }
