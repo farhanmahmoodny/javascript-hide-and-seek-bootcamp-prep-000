@@ -19,5 +19,5 @@ function increaseRankBy(n){
   //   num += (parseInt(numbers[i])) + n
   // }
   // return num
-  return document.getElementsByClassName('ranked-list') + n
+  return parseInt(document.getElementsByClassName('ranked-list')) + n
 }
