@@ -20,5 +20,6 @@ function increaseRankBy(n){
   //   parseInt(doc[i].innerHTML = (i + increaseBy).toString())
   // }
   // return doc
-  console.log(n + parseInt(document.getElementById('app').querySelectorAll('ul.ranked-list li')))
+  n + parseInt(document.getElementById('app').querySelectorAll('ul.ranked-list li'))
+  return document.getElementById('app').querySelectorAll('ul.ranked-list li')
 }
