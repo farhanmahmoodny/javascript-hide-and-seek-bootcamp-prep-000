@@ -7,6 +7,6 @@ function nestedTarget(){
   var app = document.getElementById('app')
   var nested = app.children[3]
   // var className = 'target'
-  var target = nested.getElementByclassName('target')
+  var target = nested.getElementByClassName('target')
   return target
 }
