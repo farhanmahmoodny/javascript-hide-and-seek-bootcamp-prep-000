@@ -22,7 +22,7 @@ function increaseRankBy(n){
 var elements = document.getElementsByClassName('ranked-list')
 for(var i = 0; i < elements.length; i++){
   var list = []
-  list += parseInt(element[i])
+  list += parseInt(elements[i])
 }
 return list
 }
