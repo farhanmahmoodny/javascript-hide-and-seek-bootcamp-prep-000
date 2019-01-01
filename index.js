@@ -5,7 +5,7 @@ function getFirstSelector(selector){
 
 function nestedTarget(){
   var app = document.getElementById('app')
-  var nested = app.children[3]
+  var nested = app.div
   // var className = 'target'
   var target = nested.getElementByClassName('target')
   return target
