@@ -19,4 +19,5 @@ function increaseRankBy(n){
     var increaseBy = n
     doc[i].innerHTML = (i + increaseBy).parseInt()
   }
+  return doc
 }
