@@ -4,5 +4,5 @@ function getFirstSelector(selector){
 }
 
 function nestedTarget(){
-  return document.nested.target
+  return document.app.nested.target
 }
