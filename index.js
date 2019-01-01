@@ -20,5 +20,5 @@ function increaseRankBy(n){
   //   doc[i].innerHTML = (i + increaseBy).parseInt()
   // }
   // return doc
-  return parseInt(document.getElementById('app').querySelectorAll('ul.ranked-list li')
+  return parseInt(document.getElementById('app').querySelectorAll('ul.ranked-list li')) + n
 }
