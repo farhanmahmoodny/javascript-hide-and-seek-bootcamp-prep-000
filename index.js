@@ -4,6 +4,6 @@ function getFirstSelector(selector){
 }
 
 function nestedTarget(){
-  // className ==='target'
+  var className ==='target'
   return document.app.nested.getElementByClassName('target')
 }
