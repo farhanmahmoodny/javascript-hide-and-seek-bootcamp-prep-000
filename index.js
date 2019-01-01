@@ -11,7 +11,7 @@ function deepestChild(){
   return document.querySelector('#app #grand-node div div div div')
 }
 
-function increseRankBy(n){
+function increaseRankBy(n){
   var doc = document
   .getElementById('app')
   .querySelectorAll('ul.randked-list li')
