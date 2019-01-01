@@ -10,3 +10,12 @@ function nestedTarget(){
 function deepestChild(){
   return document.querySelector('#app #grand-node div div div div')
 }
+
+function increseRankBy(n){
+  var doc = document
+  .getElementById('app')
+  .querySelectorAll('ul.randked-list li')
+  for(var i = 0; i < doc.length; i++){
+    doc[i].innerHTML = (i + 1).parseInt()
+  }
+}
