@@ -25,7 +25,8 @@ for(var i = 0; i < elements.length; i++){
   list += parse(elements[i])
 }
   for(var j = 0; j < list.length; j++){
-    var listPlusN += list[j] + n
+    var listPlusN = []
+    listPlusN += list[j] + n
 }
 return listPlusN
 }
